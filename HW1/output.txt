@@ -1,0 +1,79 @@
+zwu@kay:~/cs574/hw1> ./hw1 -t 1 -s 4000 -v 1
+Program is running
+-----------------------------
+Number of threads 1
+Size of the matrix 4000
+Value for each cell 1
+matrix size is 4000
+Thread 0 elapsed process CPU time = 828029693 nanoseconds
+rowSums : 0=1.6e+07
+ Whole program running CPU time = 16834005203163289698 nanoseconds
+ sum of matrix after all threads finished adding is 16000000.000000
+
+Cleaning up matrix memory...
+Matrix cleaned. ready for next test..
+
+
+
+
+Program is running
+-----------------------------
+Number of threads 2
+Size of the matrix 4000
+Value for each cell 1
+matrix size is 4000
+Thread 0 elapsed process CPU time = 456239141 nanoseconds
+rowSums : 0=8e+06
+ Thread 1 elapsed process CPU time = 832254601 nanoseconds
+rowSums : 1=8e+06
+ Whole program running CPU time = 16834005172972055193 nanoseconds
+ sum of matrix after all threads finished adding is 16000000.000000
+
+Cleaning up matrix memory...
+Matrix cleaned. ready for next test..
+
+
+
+zwu@kay:~/cs574/hw1> ./hw1 -t 4 -s 4000 -v 1
+Program is running
+-----------------------------
+Number of threads 4
+Size of the matrix 4000
+Value for each cell 1
+matrix size is 4000
+Thread 0 elapsed process CPU time = 287134507 nanoseconds
+rowSums : 0=4e+06
+ Thread 1 elapsed process CPU time = 480948140 nanoseconds
+rowSums : 1=4e+06
+ Thread 2 elapsed process CPU time = 672224687 nanoseconds
+rowSums : 2=4e+06
+ Thread 3 elapsed process CPU time = 863387729 nanoseconds
+rowSums : 3=4e+06
+ Whole program running CPU time = 16834005152181829204 nanoseconds
+ sum of matrix after all threads finished adding is 16000000.000000
+
+
+ Program is running
+ -----------------------------
+ Number of threads 8
+ Size of the matrix 4000
+ Value for each cell 1
+ matrix size is 4000
+ Thread 0 elapsed process CPU time = 188651911 nanoseconds
+ rowSums : 0=2e+06
+  Thread 1 elapsed process CPU time = 284666005 nanoseconds
+ rowSums : 1=2e+06
+  Thread 2 elapsed process CPU time = 380349897 nanoseconds
+ rowSums : 2=2e+06
+  Thread 3 elapsed process CPU time = 475947736 nanoseconds
+ rowSums : 3=2e+06
+  Thread 4 elapsed process CPU time = 571373257 nanoseconds
+ rowSums : 4=2e+06
+  Thread 5 elapsed process CPU time = 666748887 nanoseconds
+ rowSums : 5=2e+06
+  Thread 6 elapsed process CPU time = 762159232 nanoseconds
+ rowSums : 6=2e+06
+  Thread 7 elapsed process CPU time = 857523177 nanoseconds
+ rowSums : 7=2e+06
+  Whole program running CPU time = 16834005133264390613 nanoseconds
+  sum of matrix after all threads finished adding is 16000000.000000

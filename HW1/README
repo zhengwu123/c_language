@@ -1,0 +1,17 @@
+Program tested on nmsu cs machines.
+
+To run the program type make in the terminal
+after makefile the program name is hw1.
+
+Test with different -t -v -s
+
+for example size = 4000, number of threads = 2, value = 1
+
+./hw1 -t 2 -s 4000 -v 1
+
+
+for example size = 4000, number of threads = 4, value = 1
+
+./hw1 -t 4 -s 4000 -v 1
+
+
